@@ -49,4 +49,10 @@ export const AreaHome = styled.div`
         transition: 0.3s ease-in-out;
     }
   }
+  h2.{
+    color: black;
+  }
+  .p{
+    color: blue;
+  }
 `;

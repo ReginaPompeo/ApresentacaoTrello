@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link as NavLink } from "react-router-dom";
-import MiniLogoFebrapo from "../img/MiniLogoFebrapo.png";
+import LogoFebrapoPeq from "../img/LogoFebrapoPeq.png";
 import "./styled.css";
 
 class Navbar extends Component {
@@ -13,7 +13,7 @@ class Navbar extends Component {
       <>
         <nav className='sticky'>
           <NavLink to="/">
-            <img className="logo" src={MiniLogoFebrapo} alt="" />
+            <img className="logo" src={LogoFebrapoPeq} alt="" />
           </NavLink>
           <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
             <li>

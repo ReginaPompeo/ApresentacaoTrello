@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 export const Box = styled.div`
   padding: 32px;
-  background: rgb(61, 107, 11);
+  background: blue(61,107,11);
   background: linear-gradient(
-    260deg,
-    rgba(61, 107, 11, 1) 0%,
-    rgba(139, 69, 19, 1) 75%
+    260deg, 
+    rgb(12, 106, 163) 0%, 
+    rgb(19, 109, 139) 75%);
   );
+  
   bottom: 0;
   width: 100%;
   box-shadow: 0 5px 15px rgba(0,0,0,0.06);
@@ -23,7 +24,7 @@ export const Box = styled.div`
 export const Logo = styled(Link)`
   display: flex;
   justify-content: center;
-  height: 60px;
+  height: 160px;
 
   @media (max-width: 1082px) {
     display: flex;

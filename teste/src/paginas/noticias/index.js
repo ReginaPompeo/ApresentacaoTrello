@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import { AreaNoticias } from "./styled";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import artigo0 from "../../components/img/artigo0.jpg";
-import artigo6 from "../../components/img/artigo6.jpg";
-import artigo3 from "../../components/img/artigo3.jpg";
 import apiNoticias from "../../services/apiNoticias";
 
 function Noticias() {
@@ -57,10 +54,7 @@ function Noticias() {
         </header>
         <main className="main columns">
           <section className="column main-column">
-            <Link to="/Artigo1" className="article first-article">
-              <figure className="article-image is-4by3">
-                <img src={artigo0} alt="" />
-              </figure>
+            <Link to="/Artigo1" className="article first-article">               
               <div className="article-body">
                 <h2 id="title" className="article-title">
                   Desafios do Combate à Fome Mundial e à Escassez de Alimentos
@@ -100,12 +94,6 @@ function Noticias() {
               </div>
               <div className="column">
                 <Link to="/Artigo2" className="article">
-                  <figure className="article-image is-16by9">
-                    <img
-                      src={artigo3}
-                      alt="foto do jovem Aadit Palicha, prodígio e fundador de empresa que vale US$1 bi"
-                    />
-                  </figure>
                   <div className="article-body">
                     <h2 className="article-title">
                       A Importância da Distribuição de Alimentos e como a IA
@@ -160,9 +148,6 @@ function Noticias() {
           </section>
           <section className="column">
             <Link to="/Artigo3" className="article">
-              <figure className="article-image is-3by2">
-                <img src={artigo6} alt="" />
-              </figure>
               <div className="article-body">
                 <h2 className="article-title">
                   Tecnologias Inovadoras na Agricultura Sustentável
