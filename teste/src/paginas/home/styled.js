@@ -23,11 +23,8 @@ export const AreaHome = styled.div`
       text-shadow: 2px 2px RoyalBlue;
     }
   }
-  .container3 {
-    p {
-    color: RoyalBlue;
+
   
-  }
 }
   .buttom{
     margin-left: 60px;
@@ -49,10 +46,29 @@ export const AreaHome = styled.div`
         transition: 0.3s ease-in-out;
     }
   }
-  h2.{
-    color: black;
-  }
-  .p{
-    color: blue;
-  }
+  section {
+    padding: 100px 0;
+    margin-left: left left;
+}
+
+section .title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: royalblue;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #000000;
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+    background: blue(61, 107, 11);
+    background: linear-gradient(
+        260deg,
+        rgb(12, 106, 163) 0%,
+        rgb(19, 109, 139) 90%); /* Aumenta o tamanho da cor de fundo gradiente */
+}
+
 `;

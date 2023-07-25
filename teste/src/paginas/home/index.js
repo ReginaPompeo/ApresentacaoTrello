@@ -22,17 +22,26 @@ function Home() {
               backgroundSize: "contain",
               backgroundPosition: "left top " // Centraliza a imagem >
             }}>
-            </div>
+            <section className="about" id="about">
+        <div class="about-content">
+          <div class="column left">
           </div>
-        </div>
-            <h2>Apresentação café com sabedoria!</h2>
+          <div class="column right">
+            <div class="text">
+              Apresentação café com sabedoria!
+            </div>
             <p>
               Hoje a equipe de TI vai apresentar a ferramenta Trello com o intuito de explicar e passar 
               informação sobre o uso dessa ferramenta para a organização profissional e pessoal.
             </p>
+          </div>
+        </div>
+      </section>
+      </div>
+    </div>
+   </div>
       </AreaHome>
     </>
   )
 }
-
-export default Home
+export default Home;
