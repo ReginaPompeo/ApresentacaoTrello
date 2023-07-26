@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link as NavLink } from "react-router-dom";
 import LogoFebrapoPeq from "../img/LogoFebrapoPeq.png";
-import "./styled.css";
+import "./styled.js";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -17,28 +17,18 @@ class Navbar extends Component {
           </NavLink>
           <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
             <li>
-              <NavLink to="/noticias" className="active">
-                NOTICIAS
+              <NavLink to="/Scrum" className="active">
+                SCRUM
               </NavLink>
             </li>
             <li>
-              <NavLink to="/sobre" className="active">
-                SOBRE NÓS
+              <NavLink to="/DefinicaoTrello" className="active">
+                DEFINIÇÃO TRELLO
               </NavLink>
             </li>
             <li>
-              <NavLink to="/forum" className="active">
-                FORUM
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/signup" className="active">
-                CADASTRE-SE | LOGIN
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/ranking" className="active">
-                RANKING
+              <NavLink to="/MeusQuadros" className="active">
+                MEUS QUADROS
               </NavLink>
             </li>
           </ul>
