@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 export const Box = styled.div`
   padding: 32px;
-  background: blue(61,107,11);
+  background: #1149bb(61,107,11);
   background: linear-gradient(
     260deg, 
-    rgb(12, 106, 163) 0%, 
-    rgb(19, 109, 139) 75%);
+    #1149bb 100%, 
+    #0856f1 0%);
   );
   
   bottom: 0;
   width: 100%;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+  box-shadow: 0 5px 15px#1149bb(0,0,0,0.06);
 
   @media screen and (max-width: 1082px) {
     padding: 10px 10px;

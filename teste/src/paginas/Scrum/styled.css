@@ -1,0 +1,31 @@
+.hero {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+section{
+    padding: 50px 0;
+    text-align: center;
+}
+section .title{
+    color: #000;
+    font-family: Hanuman;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.about .about-content .column center{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+    padding-bottom: 70px;
+    display: flex;
+    text-align: center;
+  }
+  

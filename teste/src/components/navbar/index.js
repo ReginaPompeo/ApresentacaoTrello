@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link as NavLink } from "react-router-dom";
 import LogoFebrapoPeq from "../img/LogoFebrapoPeq.png";
-import "./styled.js";
+import "./styled.css";
 
 class Navbar extends Component {
   state = { clicked: false };

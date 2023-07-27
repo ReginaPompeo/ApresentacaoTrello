@@ -14,12 +14,10 @@ function Footer() {
         <Row>
           <Column className='menu'>
             <Heading>Menu</Heading>
-            <FooterLink to="/" ActiveStyle>HOME</FooterLink>
-            <FooterLink to="/noticias" ActiveStyle>NOTICIAS</FooterLink>
-            <FooterLink to="/sobre" ActiveStyle>SOBRE NÓS</FooterLink>
-            <FooterLink to="/comofunciona" ActiveStyle>COMO FUNCIONA</FooterLink>
-            <FooterLink to="/forum" ActiveStyle>FORUM</FooterLink>
-            <FooterLink to="/signup" ActiveStyle>CADASTRO | LOGIN</FooterLink>
+            <FooterLink to="/" ActiveStyle>Home</FooterLink>
+            <FooterLink to="/scrum" ActiveStyle>Scrum</FooterLink>
+            <FooterLink to="/definicaotrello" ActiveStyle>Definição Trello</FooterLink>
+            <FooterLink to="/meusquadros" ActiveStyle>Meus Quadros</FooterLink>
           </Column>
           <Column className='integrantes'>
             <Heading>Desenvolvedores</Heading>
