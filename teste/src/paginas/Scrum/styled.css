@@ -9,7 +9,7 @@ section{
     text-align: center;
 }
 section .title{
-    color: #000;
+    color: #0000CD;
     font-family: Hanuman;
     font-size: 50px;
     font-style: normal;
@@ -19,13 +19,33 @@ section .title{
 }
 
 
-.about .about-content .column center{
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-    object-fit: cover;
-    padding-bottom: 70px;
-    display: flex;
-    text-align: center;
-  }
-  
+/* Estilo para a imagem do Scrum */
+.img-scrum {
+  display: block;
+  width: 600px;
+  height: 500;
+  margin-top: 40px;
+}
+
+/* Estilo para centralizar a imagem vertical e horizontalmente */
+.column.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para o texto abaixo da imagem */
+.text-below-image {
+  color: #000;
+  text-align: center; /* Centralizar o texto justificado horizontalmente */
+  font-family: Hanuman, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: justify;
+}
+

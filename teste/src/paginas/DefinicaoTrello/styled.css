@@ -1,0 +1,35 @@
+/* Estilo para a imagem do Scrum */
+.img-def {
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* Posicionamento dos elementos */
+.column {
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.text-container {
+    flex: 1 1 auto;
+}
+
+/* Estilo para o texto abaixo da imagem */
+.text-right-image {
+    color: #000;
+    text-align: justify;
+    font-family: Hanuman, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 100px;
+    margin-left: 30px;
+}
