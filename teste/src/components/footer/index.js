@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Container, Row, Column, FooterLink, Heading, Logo} from './styled';
+import {Box, Container, Row, Column, FooterLink, Heading, LogoF} from './styled';
 import LogoFooter from '../img/LogoFooter.png';
 
 
@@ -7,9 +7,9 @@ function Footer() {
   return (
     <>
       <Box>
-      <Logo className='logo' to="/">
+      <LogoF className='logofooter' to="/">
         <img src={LogoFooter} alt='logo FEBRAPO'/>
-      </Logo>
+      </LogoF>
       <Container>
         <Row>
           <Column className='menu'>

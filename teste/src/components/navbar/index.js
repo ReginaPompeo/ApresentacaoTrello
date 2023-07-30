@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link as NavLink } from "react-router-dom";
 import LogoFebrapoPeq from "../img/LogoFebrapoPeq.png";
+import LogoFebrapoGrande from '../../components/img/LogoFebrapoGrande.png'
 import "./styled.css";
 
 class Navbar extends Component {
@@ -11,6 +12,15 @@ class Navbar extends Component {
   render() {
     return (
       <>
+      <div className='container1' style={{
+            backgroundImage: `url(${LogoFebrapoGrande})`, // Corrigido o uso das template strings
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center center",
+            backgroundSize: "300px 70px",
+            marginTop: "10px",
+            marginLeft: "auto",
+      }}>
+          </div>
         <nav className='sticky'>
           <NavLink to="/">
             <img className="logo" src={LogoFebrapoPeq} alt="" />

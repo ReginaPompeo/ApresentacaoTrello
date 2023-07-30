@@ -1,3 +1,11 @@
+.container1 {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
+
 nav{
   display: flex;
   align-items: center;
@@ -8,14 +16,18 @@ nav{
   box-shadow: 0 5px 15px rgba(0,0,0,0.06);
   position: sticky;
   z-index: 999;
+  margin-top: 10px;
 }
+ 
 .sticky {
   top: 0;
   width: 100%;
 }
-.logo{
-  height: 50px;
-  padding-right: 20px;
+.logo {
+  height: 60px;
+  width: 60px; /* Define a largura igual à altura para criar uma forma circular */
+  border-radius: 49%; /* Aplica o raio de 50% para criar uma forma circular */
+  overflow: hidden; /* Garante que a imagem se ajuste à forma circular */
 }
 #navbar{
   display: flex;

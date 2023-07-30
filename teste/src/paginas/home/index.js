@@ -1,6 +1,5 @@
 import React from 'react'
 import { AreaHome } from './styled'
-import LogoFebrapoGrande from '../../components/img/LogoFebrapoGrande.png'
 import TrelloHome from '../../components/img/TrelloHome.jpg'
 
 
@@ -8,31 +7,27 @@ function Home() {
   return (
     <>
       <AreaHome>
-        <div className='hero' >
-          <div className='container1' style={{
-            backgroundImage: `url(${LogoFebrapoGrande})`, // Corrigido o uso das template strings
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "600px 150px",
-            backgroundPosition: "center top" // Centraliza a imagem
-            
-          }}>
+      <div className='hero'>
+                <section className="about" id="about">
+                    <h2 className="TituloApresentacao">O que é o Trello?</h2>
+                    <div className="about-content">
+                        <div className="column">
+                            <div className="img-container">
+                                <img src={TrelloHome} alt="" className="img-apresentacao" />
+                            </div>
+                            <div className="text-container">
+                                <div className="text-right-image">
+                                    O Trello é uma ferramenta de gerenciamento de projetos ou colaboração que contribui para o sucesso dos negócios e pela organização pessoal. 
+                                    Ele permite você organizar suas tarefas em boards, além de poder criar um quadro e atribuir a cada membro de sua equipe.
+                                    <br />
+                                    <br />
+                                    Como todos os projetos estarão em andamento simultaneamente, será possível gerenciá-los bem e ficar de olho no estágio de trabalho de sua equipe. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-          <section className="about" id="about">
-        <h2 className="title">Apresentação café com sabedoria!</h2>
-        <div class="about-content">
-          <div class="column left">
-            <img src={TrelloHome} alt="" />
-          </div>
-          <div class="column right">
-            <div class="text">
-              {" "}
-              Hoje a equipe de TI vai apresentar a ferramenta Trello com o intuito de explicar e passar 
-              informação sobre o uso dessa ferramenta para a organização profissional e pessoal.
-            </div>
-          </div>
-        </div>
-      </section>
-      </div>
       </AreaHome>
     </>
   );

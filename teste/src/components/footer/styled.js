@@ -21,7 +21,7 @@ export const Box = styled.div`
   }
 `;
 
-export const Logo = styled(Link)`
+export const LogoF = styled(Link)`
   display: flex;
   justify-content: center;
   height: 160px;
