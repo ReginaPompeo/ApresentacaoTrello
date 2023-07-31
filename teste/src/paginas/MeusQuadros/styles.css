@@ -1,0 +1,181 @@
+ .img-criacao {
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 100px;
+  }
+
+  .img-automatizacao {
+    width: 550px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+
+    .hero {
+    background-color: LightBlue;
+    padding-top: 20px;
+  }
+
+  /* Estilos para a classe "title" */
+  .TituloCriacao {
+    color: #0000CD;
+    font-family: Hanuman;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-left: 550px;
+    padding-top: 20px;
+  }
+
+  /* Estilos para a classe "title" */
+  .TituloAuto {
+    color: #0000CD;
+    font-family: Hanuman;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 650px;
+    margin-top: 50px;
+  }
+
+  /* Posicionamento dos elementos */
+  .column-criacao {
+      display: flex;
+      align-items: right;
+  }
+  
+  .img-container {
+      flex: 0 0 auto;
+      margin-right: 20px;
+  }
+  
+  .text-container {
+      flex: 1 1 auto;
+  }
+
+  /* Posicionamento dos elementos */
+  .column-criacao {
+    display: flex;
+    align-items: left;
+}
+
+  /* Estilo para o texto abaixo da imagem */
+  .text-right-image {
+      color: #000;
+      text-align: justify;
+      font-family: Hanuman, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-right: 100px;
+      margin-left: 60px;
+      margin-top: 80px;
+  }
+  
+
+/* Estilo para o texto abaixo da imagem do segundo conteúdo */
+.text-left-image {
+    color: #000;
+    text-align: justify;
+    font-family: Hanuman, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px; /* Ajuste a margem à esquerda como desejado */
+    margin-right: 60px; /* Ajuste a margem à direita como desejado */
+    margin-top: 100px;
+  }
+  
+  /* Estilo para o contêiner do segundo conteúdo */
+  .column-auto {
+    display: flex;
+    flex-direction: row-reverse; /* Coloca a imagem à direita */
+    align-items: center justify; /* Alinha verticalmente a imagem e o texto */
+  }
+  
+
+  /* Estilo para o botão retangular */
+.botao-retangular {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 550px;
+}
+
+/* Estilo para o contêiner do botão e do texto */
+.botao-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Estilo para o botão retangular */
+.botao-retangular2 {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 590px;
+}
+
+/* Estilo para o contêiner do botão e do texto */
+.botao-container2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section .TituloPowerUp{
+  color: #0000CD;
+  font-family: Hanuman;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  padding-top: 150px;
+  margin-left: 100px;
+}
+/* Estilo para o subtítulo */
+.SubtituloPowerUp {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 100px;
+  }
+
+
+  /* Estilo para o texto abaixo da imagem */
+.text-powerups {
+  color: #000;
+  text-align: justify ; /* Centralizar o texto justificado horizontalmente */
+  font-family: Hanuman, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-right: 100px;
+}

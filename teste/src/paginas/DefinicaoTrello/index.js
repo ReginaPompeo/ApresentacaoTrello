@@ -15,11 +15,18 @@ function DefinicaoComponent() {
                             </div>
                             <div className="text-container">
                                 <div className="text-right-image">
-                                    O Trello é uma ferramenta de gerenciamento de projetos ou colaboração que contribui para o sucesso dos negócios e pela organização pessoal. 
-                                    Ele permite você organizar suas tarefas em boards, além de poder criar um quadro e atribuir a cada membro de sua equipe.
+                                    Agora sim podemos nos aprofundar no mundo do Trello. Começaremos entendendo 
+                                    o que é essa ferramenta e qual é a sua funcionalidade.
                                     <br />
                                     <br />
-                                    Como todos os projetos estarão em andamento simultaneamente, será possível gerenciá-los bem e ficar de olho no estágio de trabalho de sua equipe. 
+                                    O Trello é uma ferramenta de gerenciamento de projetos ou colaboração que 
+                                    contribui para o sucesso dos negócios e pela organização pessoal. 
+                                    Ele permite você organizar suas tarefas em boards, além de poder criar um quadro e 
+                                    atribuir a cada membro de sua equipe.
+                                    <br />
+                                    <br />
+                                    Como todos os projetos estarão em andamento simultaneamente, será possível gerenciá-los bem 
+                                    e ficar de olho no estágio de trabalho de sua equipe. 
                                 </div>
                             </div>
                         </div>

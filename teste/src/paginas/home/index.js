@@ -9,7 +9,8 @@ function Home() {
       <AreaHome>
       <div className='hero'>
                 <section className="about" id="about">
-                    <h2 className="TituloApresentacao">O que é o Trello?</h2>
+                    <h2 className="TituloApresentacao">Bom dia, café com sabedoria!</h2>
+                    <h3 className="SubtituloApresentacao">Hoje o nosso tema será sobre o uso da ferramenta Trello</h3>
                     <div className="about-content">
                         <div className="column">
                             <div className="img-container">
@@ -17,11 +18,13 @@ function Home() {
                             </div>
                             <div className="text-container">
                                 <div className="text-right-image">
-                                    O Trello é uma ferramenta de gerenciamento de projetos ou colaboração que contribui para o sucesso dos negócios e pela organização pessoal. 
-                                    Ele permite você organizar suas tarefas em boards, além de poder criar um quadro e atribuir a cada membro de sua equipe.
+                                    Hoje a equipe de TI vai apresentar a ferramenta Trello com o intuito de explicar e 
+                                    informar sobre o uso dessa ferramenta para a organização profissional e pessoal.
                                     <br />
                                     <br />
-                                    Como todos os projetos estarão em andamento simultaneamente, será possível gerenciá-los bem e ficar de olho no estágio de trabalho de sua equipe. 
+                                    O Trello é bastante utilizado no mundo corporativo, 
+                                    mas para aqueles que gostam de organização e planejamento,
+                                    essa pode ser uma boa aposta na hora de aderir um planner virtual.
                                 </div>
                             </div>
                         </div>

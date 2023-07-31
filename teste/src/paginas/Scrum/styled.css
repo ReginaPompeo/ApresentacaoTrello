@@ -1,5 +1,5 @@
-.hero {
-    color: white;
+.heroScrum {
+  background-color: white;
     padding-top: 20px;
     text-align: center;
   }
@@ -50,3 +50,13 @@ section .title{
   text-align: justify;
 }
 
+section .title{
+    color: #0000CD;
+    font-family: Hanuman;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-left: 100px;
+}

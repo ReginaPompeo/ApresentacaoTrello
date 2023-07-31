@@ -6,6 +6,11 @@
     margin-top: 50px;
 }
 
+.hero {
+    background-color: LightBlue;
+    padding-top: 20px;
+  }
+  
 /* Posicionamento dos elementos */
 .column {
     display: flex;

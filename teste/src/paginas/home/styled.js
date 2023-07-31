@@ -5,10 +5,11 @@ export const AreaHome = styled.div`
   width: 600px;
   height: 400px;
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
-  .hero {
-    color: white;
+.hero {
+  background-color: LightBlue;
     padding-top: 20px;
   }
 
@@ -21,8 +22,17 @@ export const AreaHome = styled.div`
     font-weight: 700;
     line-height: normal;
     text-align: center;
-    padding-left: 600px;
+    padding-left: 640px;
   }
+  /* Estilo para o subtítulo */
+  .SubtituloApresentacao {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 580px;
+  }
+
 
   /* Posicionamento dos elementos */
   .column {
@@ -50,6 +60,7 @@ export const AreaHome = styled.div`
       line-height: normal;
       margin-right: 100px;
       margin-left: 30px;
+      margin-top: 50px;
   }
   
 `
